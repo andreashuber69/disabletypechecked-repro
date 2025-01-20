@@ -8,4 +8,9 @@ export default tseslint.config(
     {
         ignores: ["dist/"],
     },
+    {
+        files: ["**/*.cjs"],
+        // eslint-disable-next-line import/no-named-as-default-member
+        extends: [tseslint.configs.disableTypeChecked],
+    },
 );
