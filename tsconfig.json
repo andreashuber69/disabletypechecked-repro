@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@tsconfig/strictest/tsconfig",
+    "@tsconfig/node-lts/tsconfig"
+  ],
+  "compilerOptions": {
+    "lib": ["ES2020", "DOM"],
+    "module": "NodeNext",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "strictNullChecks": true
+  },
+  "include": ["src/*"]
+}
