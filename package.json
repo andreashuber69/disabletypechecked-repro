@@ -1,0 +1,15 @@
+{
+  "name": "disabletypechecked-repro",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreashuber69/disabletypechecked-repro.git"
+  },
+  "license": "Unlicense",
+  "author": {
+    "name": "Andreas Huber"
+  },
+  "private": "true",
+  "type": "module"
+}
