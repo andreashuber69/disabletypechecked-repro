@@ -4,7 +4,7 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
     test: {
         include: ["dist/*.spec.js"],
-        exclude: ["coverage", "node_modules"],
+        exclude: [],
         coverage: {
             provider: "istanbul",
             reporter: ["lcov", "text"],
