@@ -4,6 +4,6 @@ import config from "@andreashuber69/eslint-config";
 export default [
     ...config,
     {
-        ignores: ["dist/"],
+        ignores: ["coverage/", "dist/"],
     },
 ];
