@@ -4,7 +4,7 @@ import { add } from "./add.ts";
 
 describe("calculate", () => {
     it("should return 0 when there are no values", () => {
-        expect(add() === 0);
+        expect(add()).toEqual(0);
     });
 
     it("should add values", () => {
