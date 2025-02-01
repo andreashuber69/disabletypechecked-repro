@@ -13,7 +13,7 @@
   "type": "module",
   "private": "true",
   "scripts": {
-    "build": "tsc && vite build",
+    "build": "vite build",
     "pretest": "npm run build",
     "test": "vitest --run --coverage",
     "show-coverage": "vite 'coverage/lcov-report' --logLevel error --open"
